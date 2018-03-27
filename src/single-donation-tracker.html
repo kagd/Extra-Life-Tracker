@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="settings.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/currency.js@~1.0.0/dist/currency.min.js"></script>
+    <script src="settings.js"></script>
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <div id="tracking-container">
+      <div id="participant-trackers"></div>
+    </div>
+  </body>
+
+  <script>
+    new SingleDonationTracker({
+      participantIds: ["297208", "297206", "297230"],
+      displayCount: 1,
+      teamId: "38698",
+      refreshTimeMS: 10000,
+      logWhenUpdating: false,
+    });
+  </script>
+</html>

@@ -1,0 +1,16 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "jsdoc-format": false,
+    "max-line-length": false,
+    "member-access": false,
+    "no-angle-bracket-type-assertion": false,
+    "no-console": false,
+    "object-literal-shorthand": false,
+    "object-literal-sort-keys": false,
+    "only-arrow-functions": false,
+    "ordered-imports": false,
+    "prefer-for-of": false,
+    "quotemark": false
+  }
+}
